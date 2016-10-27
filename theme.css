@@ -1,0 +1,106 @@
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+
+    	#wrapper {
+    		min-height: 100%; 
+    	}
+
+@font-face {
+    font-family: Filosofia;
+    src: url("fonts/FilosofiaGrandCaps.ttf");
+}
+@font-face{
+	font-family: Merc;
+    src: url(http://social-fonts.com/assets/fonts/corporate-a-bq/corporate-a-bq.ttf);
+}
+
+.title{
+	background: linear-gradient(
+    to right, 
+    #000000 0%, 
+    #000000 50%, 
+    #ffffff 50%, 
+    #ffffff 100%
+  );
+	text-align: center;
+	font-family: Filosofia;
+}
+/*#splitbackground{
+  background: linear-gradient(
+    to right, 
+    #ff9e2c 0%, 
+    #ff9e2c 50%, 
+    #b6701e 50%, 
+    #b6701e 100%
+  );
+  height: 100%;
+  width: 100%;
+}*/
+.fname{
+	font-family: Filosofia;
+	font-style: normal;
+	font-size: 72px;
+	font-weight: 400;
+	color:black;
+	padding: 300px;
+}
+.flip-name{
+	color: white;	
+  display: inline-block;
+  transform: scaleX(-1); /* standard */
+  filter: FlipH; /* IE 6/7/8 */
+}
+
+.content{
+	font-family: sans-serif;
+	font-size: 28px;
+	text-align: justify;
+	margin-bottom: -396px;
+}
+p{
+	margin:20px 750px 50px 50px;
+	padding: 60px; 
+	font-weight: 100px;
+}
+
+.medium-image{
+	float: right;
+	width: 50%;
+	height: auto;
+	margin-top: -50px;
+}
+.smaller-image{
+	width: 175px;
+}
+.work-experience{
+	text-align: center;
+	
+}
+.work-title{
+	font-family: Merc;
+  font-size: 60px;
+  font-weight: 100;
+  text-align:center;
+  padding:60px;
+}
+.contact{
+	background-color: #000000;
+	text-align: center;
+	margin-top: -150px;
+	padding-bottom: 100px;
+}
+.contact h1{
+	padding-top: 50px;
+	color: white;
+	font-weight: 100;
+}
+
+.contact-pic{
+	text-align: center;
+}
+
+
+
+
